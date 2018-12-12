@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>calcTEST</groupId>
-	<artifactId>bordeFunka</artifactId>
+	<artifactId>calculator-Fredrik</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>bordeFunka</name>
+	<name>calculator-Fredrik</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- These are the properties of our pom.xml -->
