@@ -23,7 +23,7 @@ public class TestCase {
 
 	@Test
 	public void testPlus50() {
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 50; i++) {
 			randomNum1 = zrandom.nextDouble() * 10;
 			randomNum2 = zrandom.nextDouble() * 10;
 			oracle = randomNum1 + randomNum2;
@@ -126,7 +126,7 @@ public class TestCase {
 	}
 	@Test
 	public void testNegPlus50() {
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 50; i++) {
 			randomNum1 = zrandom.nextDouble() * -10;
 			randomNum2 = zrandom.nextDouble() * -10;
 			oracle = randomNum1 + randomNum2;
@@ -229,7 +229,7 @@ public class TestCase {
 	}
 	@Test
 	public void test0Plus50() {
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 50; i++) {
 			randomNum1 = 0;
 			randomNum2 = 0;
 			oracle = randomNum1 + randomNum2;
