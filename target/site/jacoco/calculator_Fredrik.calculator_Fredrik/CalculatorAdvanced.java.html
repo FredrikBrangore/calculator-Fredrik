@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="sv"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CalculatorAdvanced.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">calculator-Fredrik</a> &gt; <a href="index.source.html" class="el_package">calculator_Fredrik.calculator_Fredrik</a> &gt; <span class="el_source">CalculatorAdvanced.java</span></div><h1>CalculatorAdvanced.java</h1><pre class="source lang-java linenums">/**
+ * 
+ */
+package calculator_Fredrik.calculator_Fredrik;
+
+/**
+ * @author fredd
+ * 
+ */
+<span class="fc" id="L10">public class CalculatorAdvanced implements CalculatorAdvancedOperationsInterface {</span>
+
+	/**
+	 * Takes the Square root out of a double and returns the value. There is a if
+	 * statement in the main method stops negative numbers.
+	 */
+	public double rotenUr(double mittTalA) {
+<span class="fc" id="L17">		return Math.sqrt(mittTalA);</span>
+
+	}
+
+	/**
+	 * Takes a double and multiples it by PI and returns the value.
+	 */
+	public double gångerPI(double mittTalA) {
+<span class="fc" id="L25">		return Math.PI * (mittTalA);</span>
+
+	}
+
+	/**
+	 * Takes a double and elevates it by 2 and returns the value.
+	 */
+	public double potens2(double mittTalA) {
+<span class="fc" id="L33">		return Math.pow(mittTalA, 2);</span>
+
+	}
+
+	/**
+	 * Takes a double makes it in to a radian and multiples it with the sin value
+	 * and returns the value.
+	 */
+	public double sin(double mittTalA) {
+<span class="fc" id="L42">		return Math.sin(Math.toRadians(mittTalA));</span>
+	}
+
+	/**
+	 * Takes a double makes it in to a randian and multiples it with the cos value
+	 * and returns the value.
+	 */
+	public double cos(double mittTalA) {
+<span class="fc" id="L50">		return Math.cos(Math.toRadians(mittTalA));</span>
+	}
+
+	/**
+	 * Takes a double makes it in to a radian and multiples it with the tan value
+	 * and returns the value.
+	 */
+	public double tan(double mittTalA) {
+<span class="fc" id="L58">		return Math.tan(Math.toRadians(mittTalA));</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

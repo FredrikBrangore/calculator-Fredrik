@@ -4,8 +4,7 @@
 package calculator_Fredrik.calculator_Fredrik;
 
 /**
- * @author fredd
- *
+ * @author fredd Here are the methods for my Basic Interface.
  */
 public interface CalculatorBasicOperationsInterface {
 	public double plus(double mittTal1, double tmittTal2);

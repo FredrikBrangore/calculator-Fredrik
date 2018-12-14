@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.232" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.435" tests="30" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_192\jre\bin"/>
@@ -22,12 +22,11 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_192\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\fredd\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\fredd\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1594703900779095723.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\fredd\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2816635647577154290.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_191\bin;C:\Maven\bin;C:\Maven\bin;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\fredd\AppData\Local\Microsoft\WindowsApps;;C:\Users\fredd\Downloads\eclipse.Oxy;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,15 +60,34 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testPotens2z50" time="0.055"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testCos50" time="0.037"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testSin50" time="0.028"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testTan50" time="0.02"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="tesKubenUr50" time="0.017"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testRotenUr50" time="0.011"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testGånger50" time="0.017"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testMinus50" time="0.033"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testDelat50" time="0.003"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testMain50" time="0.003"/>
-  <testcase classname="calculator_Fredrik.calculator_Fredrik.TestCase" name="testPlus50" time="0.008"/>
+  <testcase name="tesgångerPI50 on tesgångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.034"/>
+  <testcase name="test0Potens50 on test0Potens50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.016"/>
+  <testcase name="testNegPlus50 on testNegPlus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.005"/>
+  <testcase name="testCos50 on testCos50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.064"/>
+  <testcase name="testSin50 on testSin50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.046"/>
+  <testcase name="testTan50 on testTan50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.016"/>
+  <testcase name="testNegMinus50 on testNegMinus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.015"/>
+  <testcase name="testNegRotenUr50 on testNegRotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.073"/>
+  <testcase name="testNegDelat50 on testNegDelat50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.002"/>
+  <testcase name="testRotenUr50 on testRotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.002"/>
+  <testcase name="testNegativeGånger50 on testNegativeGånger50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.037"/>
+  <testcase name="test0Plus50 on test0Plus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0"/>
+  <testcase name="tesNegativegångerPI50 on tesNegativegångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="testGånger50 on testGånger50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="testNegPotens50 on testNegPotens50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.011"/>
+  <testcase name="testMinus50 on testMinus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.009"/>
+  <testcase name="test0Cos50 on test0Cos50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.008"/>
+  <testcase name="test0Sin50 on test0Sin50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.007"/>
+  <testcase name="test0Tan50 on test0Tan50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.009"/>
+  <testcase name="test0Minus50 on test0Minus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.007"/>
+  <testcase name="testDelat50 on testDelat50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.007"/>
+  <testcase name="testPotens50 on testPotens50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.007"/>
+  <testcase name="tes0gångerPI50 on tes0gångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="testNegCos50 on testNegCos50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.008"/>
+  <testcase name="test0RotenUr50 on test0RotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="test0Gånger50 on test0Gånger50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="test0Delat50 on test0Delat50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.006"/>
+  <testcase name="testNegSin50 on testNegSin50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.01"/>
+  <testcase name="testNegTan50 on testNegTan50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.005"/>
+  <testcase name="testPlus50 on testPlus50(calculator_Fredrik.calculator_Fredrik.TestCase)" classname="calculator_Fredrik.calculator_Fredrik.TestCase" time="0.001"/>
 </testsuite>

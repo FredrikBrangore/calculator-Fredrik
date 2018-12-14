@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="636" started-at="2018-12-14T09:55:09Z" finished-at="2018-12-14T09:55:09Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="636" started-at="2018-12-14T09:55:09Z" finished-at="2018-12-14T09:55:09Z">
+      <class name="calculator_Fredrik.calculator_Fredrik.TestCase">
+        <test-method status="PASS" signature="tesgångerPI50()[pri:0, instance:tesgångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="tesgångerPI50" duration-ms="36" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesgångerPI50 -->
+        <test-method status="PASS" signature="test0Potens50()[pri:0, instance:test0Potens50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Potens50" duration-ms="18" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Potens50 -->
+        <test-method status="PASS" signature="testNegPlus50()[pri:0, instance:testNegPlus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegPlus50" duration-ms="5" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegPlus50 -->
+        <test-method status="PASS" signature="testCos50()[pri:0, instance:testCos50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testCos50" duration-ms="56" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos50 -->
+        <test-method status="PASS" signature="testSin50()[pri:0, instance:testSin50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testSin50" duration-ms="40" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin50 -->
+        <test-method status="PASS" signature="testTan50()[pri:0, instance:testTan50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testTan50" duration-ms="26" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTan50 -->
+        <test-method status="PASS" signature="testNegMinus50()[pri:0, instance:testNegMinus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegMinus50" duration-ms="15" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegMinus50 -->
+        <test-method status="PASS" signature="testNegRotenUr50()[pri:0, instance:testNegRotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegRotenUr50" duration-ms="15" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegRotenUr50 -->
+        <test-method status="PASS" signature="testNegDelat50()[pri:0, instance:testNegDelat50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegDelat50" duration-ms="21" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegDelat50 -->
+        <test-method status="PASS" signature="testRotenUr50()[pri:0, instance:testRotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testRotenUr50" duration-ms="27" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRotenUr50 -->
+        <test-method status="PASS" signature="testNegativeGånger50()[pri:0, instance:testNegativeGånger50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegativeGånger50" duration-ms="43" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeGånger50 -->
+        <test-method status="PASS" signature="test0Plus50()[pri:0, instance:test0Plus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Plus50" duration-ms="2" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Plus50 -->
+        <test-method status="PASS" signature="tesNegativegångerPI50()[pri:0, instance:tesNegativegångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="tesNegativegångerPI50" duration-ms="9" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesNegativegångerPI50 -->
+        <test-method status="PASS" signature="testGånger50()[pri:0, instance:testGånger50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testGånger50" duration-ms="8" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGånger50 -->
+        <test-method status="PASS" signature="testNegPotens50()[pri:0, instance:testNegPotens50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegPotens50" duration-ms="10" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegPotens50 -->
+        <test-method status="PASS" signature="testMinus50()[pri:0, instance:testMinus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testMinus50" duration-ms="10" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinus50 -->
+        <test-method status="PASS" signature="test0Cos50()[pri:0, instance:test0Cos50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Cos50" duration-ms="9" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Cos50 -->
+        <test-method status="PASS" signature="test0Sin50()[pri:0, instance:test0Sin50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Sin50" duration-ms="7" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Sin50 -->
+        <test-method status="PASS" signature="test0Tan50()[pri:0, instance:test0Tan50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Tan50" duration-ms="10" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Tan50 -->
+        <test-method status="PASS" signature="test0Minus50()[pri:0, instance:test0Minus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Minus50" duration-ms="7" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Minus50 -->
+        <test-method status="PASS" signature="testDelat50()[pri:0, instance:testDelat50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testDelat50" duration-ms="7" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelat50 -->
+        <test-method status="PASS" signature="testPotens50()[pri:0, instance:testPotens50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testPotens50" duration-ms="6" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPotens50 -->
+        <test-method status="PASS" signature="tes0gångerPI50()[pri:0, instance:tes0gångerPI50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="tes0gångerPI50" duration-ms="6" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes0gångerPI50 -->
+        <test-method status="PASS" signature="testNegCos50()[pri:0, instance:testNegCos50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegCos50" duration-ms="8" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegCos50 -->
+        <test-method status="PASS" signature="test0RotenUr50()[pri:0, instance:test0RotenUr50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0RotenUr50" duration-ms="5" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0RotenUr50 -->
+        <test-method status="PASS" signature="test0Gånger50()[pri:0, instance:test0Gånger50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Gånger50" duration-ms="6" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Gånger50 -->
+        <test-method status="PASS" signature="test0Delat50()[pri:0, instance:test0Delat50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="test0Delat50" duration-ms="6" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0Delat50 -->
+        <test-method status="PASS" signature="testNegSin50()[pri:0, instance:testNegSin50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegSin50" duration-ms="10" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegSin50 -->
+        <test-method status="PASS" signature="testNegTan50()[pri:0, instance:testNegTan50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testNegTan50" duration-ms="4" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegTan50 -->
+        <test-method status="PASS" signature="testPlus50()[pri:0, instance:testPlus50(calculator_Fredrik.calculator_Fredrik.TestCase)]" name="testPlus50" duration-ms="1" started-at="2018-12-14T10:55:09Z" finished-at="2018-12-14T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlus50 -->
+      </class> <!-- calculator_Fredrik.calculator_Fredrik.TestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

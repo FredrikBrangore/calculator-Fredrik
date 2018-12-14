@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="sv"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MainKalk.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">calculator-Fredrik</a> &gt; <a href="index.source.html" class="el_package">calculator_Fredrik.calculator_Fredrik</a> &gt; <span class="el_source">MainKalk.java</span></div><h1>MainKalk.java</h1><pre class="source lang-java linenums">package calculator_Fredrik.calculator_Fredrik;
+
+import javax.swing.JOptionPane;
+
+/**
+ * 
+ * @author fredd
+ *
+ */
+<span class="nc" id="L10">public class MainKalk {</span>
+	/**
+	 * The try catch makes it so you can write letters and just get an error message
+	 * which tells you what you did wrong and gives a tip on what you can use 
+	 * The JOptionPane sends out a -1 when you hit the X so i need an if for it else it
+	 * will get stuck and you cant leave the Loop.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+<span class="nc" id="L19">		CalculatorAdvancedOperationsInterface KalkA = new CalculatorAdvanced();</span>
+<span class="nc" id="L20">		CalculatorBasicOperationsInterface KalkB = new CalculatorBasic();</span>
+<span class="nc" id="L21">		int p = 0;</span>
+<span class="nc" id="L22">		String s1 = &quot;&quot;;</span>
+<span class="nc" id="L23">		String s2 = &quot;&quot;;</span>
+<span class="nc" id="L24">		String rs1 = &quot;&quot;;</span>
+<span class="nc" id="L25">		String rs2 = &quot;&quot;;</span>
+<span class="nc" id="L26">		double minaTal1 = 0;</span>
+<span class="nc" id="L27">		double minaTal2 = 0;</span>
+<span class="nc bnc" id="L28" title="All 2 branches missed.">		while (p &lt;= 0) {</span>
+
+<span class="nc" id="L30">			Object[] options = { &quot;+&quot;, &quot;-&quot;, &quot;*&quot;, &quot;/&quot;, &quot;√&quot;, &quot;*PI&quot;, &quot;^2&quot;, &quot;sin&quot;, &quot;cos&quot;, &quot;tan&quot; };</span>
+<span class="nc" id="L31">			int f = JOptionPane.showOptionDialog(null, &quot;Välj Räknesätt eller Klicka på X i detta fönster för Avsluta&quot;,</span>
+					&quot;Här ska Räknas&quot;, JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options,
+					options[9]);
+
+<span class="nc bnc" id="L35" title="All 2 branches missed.">			while (f &lt; 11) {</span>
+				try {
+<span class="nc bnc" id="L37" title="All 2 branches missed.">					if (f == -1) {</span>
+<span class="nc" id="L38">						System.exit(0);</span>
+<span class="nc bnc" id="L39" title="All 2 branches missed.">					} else if (f == 0) {</span>
+<span class="nc" id="L40">						s1 = JOptionPane.showInputDialog(&quot;Mata in Tal 1&quot;);</span>
+<span class="nc" id="L41">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L42">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L43">						s2 = JOptionPane.showInputDialog(&quot;Mata in Tal 2&quot;);</span>
+<span class="nc" id="L44">						rs2 = s2.replace(',', '.');</span>
+<span class="nc" id="L45">						minaTal2 = Double.parseDouble(rs2);</span>
+<span class="nc" id="L46">						JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L47">								minaTal1 + &quot; Plus &quot; + minaTal2 + &quot; är: &quot; + (KalkB.plus(minaTal1, minaTal2)));</span>
+<span class="nc" id="L48">						f = 10;</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">					} else if (f == 1) {</span>
+<span class="nc" id="L50">						s1 = JOptionPane.showInputDialog(&quot;Mata in Tal 1&quot;);</span>
+<span class="nc" id="L51">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L52">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L53">						s2 = JOptionPane.showInputDialog(&quot;Mata in Tal 2&quot;);</span>
+<span class="nc" id="L54">						rs2 = s2.replace(',', '.');</span>
+<span class="nc" id="L55">						minaTal2 = Double.parseDouble(rs2);</span>
+<span class="nc" id="L56">						JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L57">								minaTal1 + &quot; Minus &quot; + minaTal2 + &quot; är: &quot; + (KalkB.minus(minaTal1, minaTal2)));</span>
+<span class="nc" id="L58">						f = 10;</span>
+<span class="nc bnc" id="L59" title="All 2 branches missed.">					} else if (f == 2) {</span>
+<span class="nc" id="L60">						s1 = JOptionPane.showInputDialog(&quot;Mata in Tal 1&quot;);</span>
+<span class="nc" id="L61">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L62">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L63">						s2 = JOptionPane.showInputDialog(&quot;Mata in Tal 2&quot;);</span>
+<span class="nc" id="L64">						rs2 = s2.replace(',', '.');</span>
+<span class="nc" id="L65">						minaTal2 = Double.parseDouble(rs2);</span>
+<span class="nc" id="L66">						JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L67">								minaTal1 + &quot; Gånger &quot; + minaTal2 + &quot; är: &quot; + (KalkB.gånger(minaTal1, minaTal2)));</span>
+<span class="nc" id="L68">						f = 10;</span>
+<span class="nc bnc" id="L69" title="All 2 branches missed.">					} else if (f == 3) {</span>
+<span class="nc" id="L70">						s1 = JOptionPane.showInputDialog(&quot;Mata in Tal 1&quot;);</span>
+<span class="nc" id="L71">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L72">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L73">						s2 = JOptionPane.showInputDialog(&quot;Mata in Tal 2&quot;);</span>
+<span class="nc" id="L74">						rs2 = s2.replace(',', '.');</span>
+<span class="nc" id="L75">						minaTal2 = Double.parseDouble(rs2);</span>
+						/**
+						 * A if else to make it so you cant put 0 as your second number when dividing
+						 */
+<span class="nc bnc" id="L79" title="All 2 branches missed.">						if (minaTal2 == 0.0) {</span>
+<span class="nc" id="L80">							JOptionPane.showMessageDialog(null, &quot;Du får inte Mata in 0 i Andra Talet&quot;, &quot;ERROR ERROR&quot;,</span>
+									JOptionPane.ERROR_MESSAGE);
+						} else
+<span class="nc" id="L83">							JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L84">									minaTal1 + &quot; Delat med &quot; + minaTal2 + &quot; är: &quot; + (KalkB.delat(minaTal1, minaTal2)));</span>
+<span class="nc" id="L85">						f = 10;</span>
+<span class="nc bnc" id="L86" title="All 2 branches missed.">					} else if (f == 4) {</span>
+<span class="nc" id="L87">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L88">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L89">						minaTal1 = Double.parseDouble(rs1);</span>
+						/**
+						 * A if else to make it so you cant put less then 0 when trying to check the
+						 * SquareRoot.
+						 */
+<span class="nc bnc" id="L94" title="All 2 branches missed.">						if (minaTal1 &lt; 0.0) {</span>
+<span class="nc" id="L95">							JOptionPane.showMessageDialog(null, &quot;Du kan bara använda tal som är större än 0&quot;,</span>
+									&quot;ERROR ERROR&quot;, JOptionPane.ERROR_MESSAGE);
+						} else
+<span class="nc" id="L98">							JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L99">									&quot;Roten Ur &quot; + minaTal1 + &quot; är: &quot; + KalkA.rotenUr(minaTal1));</span>
+<span class="nc" id="L100">						f = 10;</span>
+<span class="nc bnc" id="L101" title="All 2 branches missed.">					} else if (f == 5) {</span>
+<span class="nc" id="L102">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L103">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L104">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L105">						JOptionPane.showMessageDialog(null,</span>
+<span class="nc" id="L106">								&quot;Ditt Tal &quot; + minaTal1 + &quot; gånger PI är: &quot; + KalkA.gångerPI(minaTal1));</span>
+<span class="nc" id="L107">						f = 10;</span>
+<span class="nc bnc" id="L108" title="All 2 branches missed.">					} else if (f == 6) {</span>
+<span class="nc" id="L109">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L110">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L111">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L112">						JOptionPane.showMessageDialog(null, &quot;^2 på &quot; + minaTal1 + &quot; är: &quot; + KalkA.potens2(minaTal1));</span>
+<span class="nc" id="L113">						f = 10;</span>
+<span class="nc bnc" id="L114" title="All 2 branches missed.">					} else if (f == 7) {</span>
+<span class="nc" id="L115">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L116">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L117">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L118">						JOptionPane.showMessageDialog(null, &quot;Sin på &quot; + minaTal1 + &quot; är: &quot; + KalkA.sin(minaTal1));</span>
+<span class="nc" id="L119">						f = 10;</span>
+<span class="nc bnc" id="L120" title="All 2 branches missed.">					} else if (f == 8) {</span>
+<span class="nc" id="L121">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L122">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L123">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L124">						JOptionPane.showMessageDialog(null, &quot;Cos på &quot; + minaTal1 + &quot; är: &quot; + KalkA.cos(minaTal1));</span>
+<span class="nc" id="L125">						f = 10;</span>
+
+<span class="nc bnc" id="L127" title="All 2 branches missed.">					} else if (f == 9) {</span>
+<span class="nc" id="L128">						s1 = JOptionPane.showInputDialog(&quot;Mata in ditt Tal&quot;);</span>
+<span class="nc" id="L129">						rs1 = s1.replace(',', '.');</span>
+<span class="nc" id="L130">						minaTal1 = Double.parseDouble(rs1);</span>
+<span class="nc" id="L131">						JOptionPane.showMessageDialog(null, &quot;Tan på &quot; + minaTal1 + &quot; är: &quot; + KalkA.tan(minaTal1));</span>
+<span class="nc" id="L132">						f = 10;</span>
+					}
+					/**
+					 * I ask here if you want to continue using the calculator or turn it off
+					 */
+					else {
+<span class="nc" id="L138">						Object[] klart = { &quot;JA&quot;, &quot;NEJ&quot; };</span>
+<span class="nc" id="L139">						int w = JOptionPane.showOptionDialog(null, &quot;Vill du räkna mer?&quot;,</span>
+								&quot;Mer eller inte?&quot;, JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, klart,
+								klart[1]);
+<span class="nc bnc" id="L142" title="All 2 branches missed.">						if (w == 0) {</span>
+<span class="nc" id="L143">							f = 15;</span>
+						}
+<span class="nc" id="L145">						else System.exit(0);</span>
+					}
+
+<span class="nc" id="L148">				} catch (Exception e1) {</span>
+<span class="nc" id="L149">					JOptionPane.showMessageDialog(null,</span>
+							&quot;Du måste skriva bara siffror du får använda ett , eller . som komma tecken&quot;);
+<span class="nc" id="L151">				}</span>
+			}
+<span class="nc" id="L153">		}</span>
+<span class="nc" id="L154">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
